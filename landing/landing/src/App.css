@@ -1,0 +1,103 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 23vh;
+	pointer-events: none;
+	padding: 2rem;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+	background-image: url("./img/ebbing.webp"),
+		linear-gradient(to right, #5b5473 18%, #736754 77%);
+	background-blend-mode: screen, multiply;
+	/* background-color: #5b5473; */
+	min-height: 30vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.name {
+	background: linear-gradient(to right, #736754 13%, #5b5473 84%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 1rem;
+	-webkit-text-stroke: 1px black;
+	text-decoration: underline;
+}
+
+.Links-title {
+	height: 10vh;
+}
+.Links {
+}
+
+.OpenSea {
+	height: 16vh;
+	flex-grow: 1;
+	background-color: #1868b7;
+	background-image: url("./img/opensea.webp");
+	background-blend-mode: normal;
+	background-size: contain;
+}
+
+.OpenSea:hover {
+	background-blend-mode: overlay;
+}
+
+.Rarible {
+	height: 16vh;
+	background-color: #b703fe;
+	background-image: url("./img/rarible.webp");
+	background-blend-mode: normal;
+	background-size: contain;
+}
+
+.Rarible:hover {
+	background-blend-mode: overlay;
+}
+
+.Twitter {
+	height: 16vh;
+	background-color: #1da1f2;
+	background-image: url("./img/twitter.webp");
+	background-blend-mode: normal;
+	background-size: contain;
+}
+
+.Twitter:hover {
+	background-blend-mode: overlay;
+}
+
+.Instagram {
+	height: 16vh;
+	background-color: #ffdc80;
+	background-image: url("./img/instagram.webp");
+	background-blend-mode: normal;
+	background-size: contain;
+}
+
+.Instagram:hover {
+	background-blend-mode: screen;
+}
+
+/* 
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} */
