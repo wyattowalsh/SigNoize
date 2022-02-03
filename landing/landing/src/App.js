@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Typography fontFamily='"Condiment", cursive' variant="h1" className="name">SigNoize</Typography>
+        <Typography fontFamily='"Condiment", cursive' variant="h1" fontSize={"3.8rem"} className="name">SigNoize</Typography>
       </header>
-      <Typography variant="h2" className="Links-title">Links</Typography>
+      <Typography variant="h2" className="Links-title" fontWeight={"600"}>Links</Typography>
       <Stack div className="Links" spacing={0}>
         <a href="https://opensea.io/signoize" target="_blank" rel="noopener noreferrer">
           <Stack item className="OpenSea">
