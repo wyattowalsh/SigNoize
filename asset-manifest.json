@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc74a5dc.css",
+    "main.js": "/static/js/main.2b68657e.js",
+    "static/js/787.28525a86.chunk.js": "/static/js/787.28525a86.chunk.js",
+    "static/media/ebbing.webp": "/static/media/ebbing.37a6118b37fc33f7d6cd.webp",
+    "static/media/logo.webp": "/static/media/logo.b068ade6bf89639e0bd2.webp",
+    "static/media/twitter.webp": "/static/media/twitter.977b5d9f75293f154814.webp",
+    "static/media/opensea.webp": "/static/media/opensea.6aaa0fff93de0b3c0bcd.webp",
+    "static/media/instagram.webp": "/static/media/instagram.c4fb7397265e2c932044.webp",
+    "static/media/rarible.webp": "/static/media/rarible.fdf0764016a47311db52.webp",
+    "index.html": "/index.html",
+    "main.cc74a5dc.css.map": "/static/css/main.cc74a5dc.css.map",
+    "main.2b68657e.js.map": "/static/js/main.2b68657e.js.map",
+    "787.28525a86.chunk.js.map": "/static/js/787.28525a86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc74a5dc.css",
+    "static/js/main.2b68657e.js"
+  ]
+}
